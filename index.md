@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="assets/custom.css">
+
 # Инструкция по настройке сервера VPN на Outline
 
 ## 1. Выбор сервера.
