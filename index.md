@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="assets/custom.css">
+<link rel="stylesheet" href="custom.css">
 
 # Инструкция по настройке сервера VPN на Outline
 
