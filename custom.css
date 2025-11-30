@@ -1,15 +1,16 @@
-/* ====== Dark Background & Text ====== */
+/* ====== Body ====== */
 body {
-    background-color: #0d0d0d !important;
-    color: #e6e6e6 !important;
+    background-color: #1e1e1e;   /* мягкий тёмно-серый фон */
+    color: #e0e0e0;             /* светло-серый текст */
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    line-height: 1.7;
+    line-height: 1.6;
     padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 /* ====== Headings ====== */
 h1, h2, h3, h4, h5, h6 {
-    color: #ffffff !important;
+    color: #ffffff;
     font-weight: 600;
     margin-top: 32px;
     margin-bottom: 16px;
@@ -17,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ====== Links ====== */
 a {
-    color: #6ab0ff !important;
+    color: #82cfff;
     text-decoration: none;
 }
 a:hover {
@@ -27,28 +28,29 @@ a:hover {
 /* ====== Images ====== */
 img {
     max-width: 100%;
-    border-radius: 8px;
+    border-radius: 6px;
     margin: 10px 0;
     display: block;
 }
 
 /* ====== Code blocks ====== */
 pre, code {
-    background-color: #1b1b1b !important;
-    color: #dcdcdc !important;
+    background-color: #2a2a2a;   /* тёмно-серый фон для кода */
+    color: #f5f5f5;              /* светлый текст кода */
     border-radius: 6px;
+    font-family: "Fira Code", monospace;
 }
 
 /* Блоки кода */
 pre {
-    padding: 16px;
+    padding: 14px;
     overflow-x: auto;
-    border: 1px solid #333;
+    border: 1px solid #3a3a3a;
 }
 
 /* Инлайн код */
 code {
-    padding: 2px 5px;
+    padding: 2px 6px;
 }
 
 /* ====== Lists ====== */
@@ -58,35 +60,41 @@ ul, ol {
 
 /* ====== Blockquotes ====== */
 blockquote {
-    border-left: 3px solid #444;
+    border-left: 3px solid #555;
     padding-left: 12px;
-    color: #cccccc;
+    color: #cfcfcf;
     margin: 15px 0;
+    font-style: italic;
 }
 
-/* ====== Tables (если будут) ====== */
+/* ====== Tables ====== */
 table {
     border-collapse: collapse;
     width: 100%;
 }
 td, th {
-    border: 1px solid #333;
+    border: 1px solid #444;
     padding: 8px;
 }
 th {
-    background-color: #222;
+    background-color: #2a2a2a;
 }
 
 /* ====== Horizontal line ====== */
 hr {
     border: none;
-    border-top: 1px solid #333;
+    border-top: 1px solid #444;
     margin: 30px 0;
 }
 
-/* ====== Improve readability on wide screens ====== */
+/* ====== Center content and limit width ====== */
 body > * {
-    max-width: 900px;
+    max-width: 850px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* ====== Optional: subtle shadow on images ====== */
+img {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
 }
