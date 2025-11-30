@@ -13,7 +13,6 @@
       ![скрин 1](1957.jpg)
    4. На вашу почту вам придёт письмо с доступом к серверу. Будем использовать данные для подключения по SSH (скрин 2)
       ![скрин 2](1959.jpg)
-
 2. Теперь переходим к настройке сервера.
 
    1. На Windows используем power shell ибо с ним проще (на маках терминал или что там у вас есть :D).
@@ -73,8 +72,8 @@ sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-
 
 1. **Почему на телефоне нужно использовать только Outline, а не приложения по типу Potatso и V2Box.**
    Потому наш префикс что мы добавляли в финальном шаге для маскировки трафика, будет работать только в оф. приложении Outline, в иных же приложениях, этот префикс просто игнорируется.
-3. **Какие есть варианты портов и префиксов, если вдруг указанный в инструкции не работает**
-   Все варианты можно найти тут — [https://developers.google.com/outline/docs/guides/service-providers/prefixing?hl=ru](https://developers.google.com/outline/docs/guides/service-providers/prefixing?hl=ru) (используем столбец "кодировка URL")
+3. **Какие есть варианты портов и префиксов, если вдруг указанный в инструкции не работает?**
+    Все варианты можно найти тут — [https://developers.google.com/outline/docs/guides/service-providers/prefixing?hl=ru](https://developers.google.com/outline/docs/guides/service-providers/prefixing?hl=ru) (используем столбец "кодировка URL")
 5. **Есть ли приложения удобные для компьютера кроме Outline?**
    Советую использовать приложение Shadowsocks (оно есть для [Windows](https://github.com/shadowsocks/shadowsocks-windows/releases) и для [macOS](https://github.com/shadowsocks/ShadowsocksX-NG/releases/)). Там можно забиндить горячие клавиши для включения/выключения и переключения режима "впн на все сеть или только на определенные сайты". Если нужна будет помощь в установке или настройке, напишите.
 
